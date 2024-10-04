@@ -33,7 +33,7 @@ const getPlayerChoice = (event) => {
     
     displayText.innerText = `You chose ${playerChoice}!`;
     setTimeout(() => {
-        let computerChoice = getComputerChoice();
+        getComputerChoice();
         displayText.innerText = `Computer chose ${computerChoice}`;
         roundWinner();
     }, 2000)
