@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title-text">Rock Paper Scissors</h1>
+<div class="score-wrap">
+    <label>Player score: <span id="player-score">0</span></label>
+    <label>Computer score: <span id="computer-score">0</span></label>
+</div>
+    <h2 class="selection-text">Make your choice!</h2>
+    <div class="choices-wrap">
+        <img src="/selection-icons/rock.webp" alt="rock" class="selection-item" onclick="humanChoice()">
+        <img src="/selection-icons/paper.webp" alt="paper" class="selection-item" onclick="humanChoice()">
+        <img src="/selection-icons/scissors.webp" alt="scissors" class="selection-item" onclick="humanChoice()">
+    </div>
+    <footer class="footer">
+        <p class="footer-text">&copy; LauritzCode</p>
+    </footer>
+</body>
+</html>
