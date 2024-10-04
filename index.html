@@ -15,14 +15,15 @@
     <label>Player score: <span id="player-score">0</span></label>
     <label>Computer score: <span id="computer-score">0</span></label>
 </div>
-    <h2 class="selection-text">Make your choice!</h2>
+    <p id="display-text" class="selection-text">Make your choice!</p>
     <div class="choices-wrap">
-        <img src="/selection-icons/rock.webp" alt="rock" class="selection-item" onclick="humanChoice()">
-        <img src="/selection-icons/paper.webp" alt="paper" class="selection-item" onclick="humanChoice()">
-        <img src="/selection-icons/scissors.webp" alt="scissors" class="selection-item" onclick="humanChoice()">
+        <img src="/selection-icons/rock.webp" alt="rock" id="rock" class="selection-item">
+        <img src="/selection-icons/paper.webp" alt="paper" id="paper" class="selection-item">
+        <img src="/selection-icons/scissors.webp" alt="scissors" id="scissors" class="selection-item">
     </div>
     <footer class="footer">
         <p class="footer-text">&copy; LauritzCode</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
